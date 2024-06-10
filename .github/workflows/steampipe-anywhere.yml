@@ -15,7 +15,7 @@ permissions:
 jobs:
   build-postgres-15-fdw-linux-amd64:
     name: Build Postgres 15 FDW for Linux - AMD64
-    runs-on: ubuntu-latest
+    runs-on: [linux]
     steps:
       - name: Set environment variables
         run: |
